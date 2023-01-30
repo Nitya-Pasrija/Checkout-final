@@ -25,7 +25,7 @@ const App = () => {
                     </form>
                 </div>
                 <Confirmo/>
-                <button className="bg-gray-800 hover:bg-gray-900 text-white p-4 text-lg my-3 mt-10 w-full md:w-auto">Pay and Track Order</button>
+                <button className="bg-gray-800 hover:bg-gray-900 text-white p-4 text-lg my-3 mt-10 w-full md:w-auto">Track Order</button>
             </div>
             <div className="relative col-span-9 lg:col-span-4 xl:col-span-3 bg-gray-100 lg:h-auto xl:h-screen px-8 py-14 xl:px-12 xl:py-20">
                 <div className="flex flex-1">

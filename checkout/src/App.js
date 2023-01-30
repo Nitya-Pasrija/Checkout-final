@@ -1,5 +1,5 @@
 import React from "react";
-
+import Confirmo from "./components/Confirmo";
 const App = () => {
     return (
         <div className="lg:container lg:mx-auto grid grid-cols-9 lg:grid-cols-12">
@@ -24,7 +24,7 @@ const App = () => {
                         </div>
                     </form>
                 </div>
-
+                <Confirmo/>
                 <button className="bg-gray-800 hover:bg-gray-900 text-white p-4 text-lg my-3 mt-10 w-full md:w-auto">Pay and Track Order</button>
             </div>
             <div className="relative col-span-9 lg:col-span-4 xl:col-span-3 bg-gray-100 lg:h-auto xl:h-screen px-8 py-14 xl:px-12 xl:py-20">
@@ -38,12 +38,6 @@ const App = () => {
                     <h3>Farm House Large Thin Crust (Extra Toppings: Olives, Mushrooms)</h3>
                     <h3 className="flex-auto text-right pr-4 md:pr-5 lg:pr-4">2x</h3>
                     <h3>1200 INR</h3>
-                </div>
-
-                <div className="mt-5 flex flex-1 text-gray-800 text-lg font-normal">
-                    <h3>Four Seasons Medium Classic (Extra Toppings: None)</h3>
-                    <h3 className="flex-auto text-right pr-7 md:pr-9 lg:pr-7"></h3>
-                    <h3>650 INR</h3>
                 </div>
                 <div className="mt-5 flex flex-1 text-gray-800 text-lg font-normal">
                     <h3>Tax </h3>
@@ -61,7 +55,7 @@ const App = () => {
                         Total
                     </span>
                     <span aria-label="Total Price" className="float-right font-semibold text-gray-800 text-2xl">
-                        INR 2183
+                        INR 1383
                     </span>
                     <div className="clear-both"></div>
                 </div>

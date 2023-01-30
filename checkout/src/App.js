@@ -37,7 +37,7 @@ const App = () => {
                 <div className="mt-7 flex flex-1 text-gray-800 text-lg font-normal">
                     <h3>Farm House Large Thin Crust (Extra Toppings: Olives, Mushrooms)</h3>
                     <h3 className="flex-auto text-right pr-4 md:pr-5 lg:pr-4">2x</h3>
-                    <h3>1200 INR</h3>
+                    <h3>1250 INR</h3>
                 </div>
                 <div className="mt-5 flex flex-1 text-gray-800 text-lg font-normal">
                     <h3>Tax </h3>
@@ -55,7 +55,7 @@ const App = () => {
                         Total
                     </span>
                     <span aria-label="Total Price" className="float-right font-semibold text-gray-800 text-2xl">
-                        INR 1383
+                        INR 1433
                     </span>
                     <div className="clear-both"></div>
                 </div>
